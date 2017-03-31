@@ -111,6 +111,10 @@ a(ProgramOutputAwareDir2Symlink::create()->setProgramOutput($output)->toSymlinks
 History Log
 ------------------
     
+- 1.1.0 -- 2017-03-31
+
+    - fix no error returned when sourceEntry not a directory
+    
 - 1.0.0 -- 2017-03-31
 
     - initial commit

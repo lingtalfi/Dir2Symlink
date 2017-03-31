@@ -69,9 +69,6 @@ class Dir2Symlink
                         } else { // dir
                             FileSystemTool::copyDir($sourceEntry, $targetEntry);
                         }
-                    } else {
-                        $ret = false;
-                        $this->error("sourceEntryNotADirectory", $sourceEntry);
                     }
                 }
             } else {
@@ -101,10 +98,6 @@ class Dir2Symlink
             case 'targetDirectoryNotFound':
                 $msg = "target directory doesn't exist: $param";
                 $level = "error";
-                break;
-            case 'sourceEntryNotADirectory':
-                $msg = "source entry not a directory: $param";
-                $level = "warn";
                 break;
             default:
                 break;
