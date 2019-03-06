@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Dir2Symlink;
+namespace Ling\Dir2Symlink;
 
 
-use Output\ProgramOutputAwareInterface;
-use Output\ProgramOutputInterface;
+use Ling\Output\ProgramOutputAwareInterface;
+use Ling\Output\ProgramOutputInterface;
 
 
 class ProgramOutputAwareDir2Symlink extends Dir2Symlink implements ProgramOutputAwareInterface

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dir2Symlink\Exception;
+namespace Ling\Dir2Symlink\Exception;
 
 
 class Dir2SymlinkException extends \Exception

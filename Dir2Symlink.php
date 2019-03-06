@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Dir2Symlink;
+namespace Ling\Dir2Symlink;
 
 
-use Bat\FileSystemTool;
-use Dir2Symlink\Exception\Dir2SymlinkException;
+use Ling\Bat\FileSystemTool;
+use Ling\Dir2Symlink\Exception\Dir2SymlinkException;
 
 
 class Dir2Symlink

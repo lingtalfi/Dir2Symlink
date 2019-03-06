@@ -17,7 +17,7 @@ Install
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 
 ```bash
-uni import Dir2Symlink
+uni import Ling/Dir2Symlink
 ```
 
 Or you can simply download the repository manually.
@@ -63,7 +63,7 @@ Simple example
 <?php
 
 
-use Dir2Symlink\Dir2Symlink;
+use Ling\Dir2Symlink\Dir2Symlink;
 
 require_once __DIR__  . "/../boot.php";
 
@@ -85,8 +85,8 @@ Same example, using an [Output](https://github.com/lingtalfi/Output/).
 
 
 
-use Dir2Symlink\ProgramOutputAwareDir2Symlink;
-use Output\WebProgramOutput;
+use Ling\Dir2Symlink\ProgramOutputAwareDir2Symlink;
+use Ling\Output\WebProgramOutput;
 
 require_once __DIR__  . "/../boot.php";
 
