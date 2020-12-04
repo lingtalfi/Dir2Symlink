@@ -110,7 +110,11 @@ a(ProgramOutputAwareDir2Symlink::create()->setProgramOutput($output)->toSymlinks
 
 History Log
 ------------------
-    
+
+- 1.2.1 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 1.2.0 -- 2017-04-01
 
     - add equalize method
